@@ -1,0 +1,28 @@
+{
+  "name": "sistema-horas-extras",
+  "version": "1.0.0",
+  "description": "Sistema completo de administração de horas extras com dashboard moderno",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve .",
+    "dev": "npx live-server .",
+    "build": "echo 'Build completo - arquivos estáticos prontos'",
+    "deploy": "vercel --prod"
+  },
+  "keywords": [
+    "horas-extras",
+    "dashboard",
+    "supabase",
+    "javascript",
+    "sistema-administrativo"
+  ],
+  "author": "Sistema de Horas Extras",
+  "license": "MIT",
+  "devDependencies": {
+    "serve": "^14.2.1",
+    "live-server": "^1.2.2"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
